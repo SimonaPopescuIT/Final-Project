@@ -1,0 +1,48 @@
+.container1 {
+    display: flex;
+}
+
+.title {
+    column-span: all;
+    display: block;
+}
+
+/* .text2 {
+    padding-right: 20px;
+    padding: 40px;
+    columns: 50px 2;
+    column-gap: 30px;
+    color: #000000;
+    padding: 25px;
+} */
+
+.image {
+    max-width: 30%;
+    justify-content: space-around;
+}
+
+.video {
+    position: absolute;
+    margin-left: 100px;
+    padding-top: 100px;
+
+}
+
+
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .text2 {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .image {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .video {
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+}

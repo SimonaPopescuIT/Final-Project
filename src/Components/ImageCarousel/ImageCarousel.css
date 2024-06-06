@@ -1,0 +1,30 @@
+/* .carousel {
+    display: flex;
+    align-items: center;
+}
+
+.carousel img {
+    width: 500px;
+    height: auto;
+}
+
+.carousel button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 10px;
+} */
+
+.terapeutic1 {
+    width: 15%;
+    height: 15%;
+}
+.terapeutic2 {
+    width: 15%;
+    height: 15%;
+}
+.terapeutic3 {
+    width: 15%;
+    height: 15%;
+}

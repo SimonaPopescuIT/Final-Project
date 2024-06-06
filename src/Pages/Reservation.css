@@ -1,0 +1,60 @@
+.form-container {
+    padding: 30px;
+    background-color: #fff;
+    /* border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); */
+    width: 380px;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+
+}
+
+.form-input {
+    margin-bottom: 10px;
+    /* margin-right: 10px; */
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1 {
+    flex:  1 0 40px;
+    background: #0d6efd;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.MASSAGE {
+    padding-right: 56%;
+    padding-bottom: 40%;
+
+}
+
+.FullName,
+.Subject,
+.EMAIL,
+.TELEPHONE{
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.DESIREDSERVICES {
+padding-right: 56%;
+padding-bottom: 5%;
+}
+
+.DATE {
+    padding-right: 33%;
+    padding-bottom: 5%;
+}
+
+.TIME {
+    padding-right: 20%;
+    padding-bottom: 5%;
+
+}

@@ -1,0 +1,122 @@
+.miere,
+.terapeutic,
+.foto8,
+.pietre1 {
+    width: 300px;
+    padding: 10px;
+}
+
+.a3 {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.table {
+    padding: 30px;
+
+}
+
+.image4 {
+    width: 65%;
+}
+
+.p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.image5 {
+    flex-shrink: 0;
+    padding: 40px;
+}
+
+.div {
+    padding: 10px;
+}
+
+.text3 {
+    padding-right: 40px;
+    padding: 40px;
+    columns: 150px 2;
+    column-gap: 50px;
+    color: #000000;
+}
+
+.video1{
+    padding-left: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text4 {
+    display: flex;
+    padding: 50px;
+    margin-right: 500px;
+    position: absolute;
+}
+
+.image6 {
+    padding-left: 65%;
+    width: 30%;
+}
+
+.title {
+    text-align: center;
+}
+
+.image7 {
+    position: absolute;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.text5 {
+    padding-left: 65%;
+}
+
+.text6 {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+.image8 {
+    padding-left: 60%;
+    width: 30%;
+    position: absolute;
+    padding-bottom: 50%;
+
+}
+
+.container-DT {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item-DT {
+    padding: 20px;
+    width: 50%;
+}
+
+@media (width < 1080px) {
+    .container-DT {
+        grid-template-columns: auto;
+    }
+
+    .grid-item-DT {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .content {
+        margin-right: 20px;
+    }
+}

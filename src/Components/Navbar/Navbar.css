@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #F9F7F7;
+    text-align: right;
+    width: 100%;
+    overflow: hidden;
+    height: 70px; 
+    position: sticky;
+    top: 0;
+}
+
+.Navbar {
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    margin: 25px;
+    font-family: 'Fauna One', serif;
+    font-size: 16px; 
+}
+
+
+
+.nav {
+    text-align: right;
+    margin-left: 55%;
+}
+
+.navlink {
+    text-decoration: none;
+    /* margin-left: 500%; */
+    color: black;
+}
+
+.navlink:hover {
+    background-color: #45a049; /* Culoare verde mai închisă la hover */
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+.about {
+    text-decoration: none;
+    color: black;
+    margin-left: 30%;
+}
+.about:hover {
+    background-color: #45a049; /* Culoare verde mai închisă la hover */
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+.services {
+    text-decoration: none;
+    color: black;
+    margin-left: 30%;
+}
+
+.services:hover {
+    background-color: #45a049; /* Culoare verde mai închisă la hover */
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.reservation1 {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 30%;
+    padding: 5px;
+}
+
+.reservation1:hover {
+    background-color: #45a049; /* Culoare verde mai închisă la hover */
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+@media (width < 1080px) {
+    .Navbar{
+        grid-template-columns: auto;
+    }
+    .nav{
+        width: 100%;
+    }
+    }
