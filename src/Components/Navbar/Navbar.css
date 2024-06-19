@@ -2,15 +2,18 @@
     background-color: #F9F7F7;
     text-align: right;
     width: 100%;
-    overflow: hidden;
-    height: 70px; 
+    height: 70px;
     position: sticky;
-    top: 0;
+    z-index: 1;
 }
 
-.Navbar {
-    position: sticky;
-    top: 0;
+.margin-top {
+    margin-top: 25px;
+}
+
+.navbar-bun {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -18,73 +21,37 @@
     color: black;
     margin: 25px;
     font-family: 'Fauna One', serif;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
-
-
-.nav {
-    text-align: right;
-    margin-left: 55%;
-}
-
-.navlink {
-    text-decoration: none;
-    /* margin-left: 500%; */
-    color: black;
-}
-
-.navlink:hover {
-    background-color: #45a049; /* Culoare verde mai închisă la hover */
-    color: black;
-    border-radius: 3px;
-    padding: 3px;
-}
-.about {
+.nav-link {
     text-decoration: none;
     color: black;
-    margin-left: 30%;
-}
-.about:hover {
-    background-color: #45a049; /* Culoare verde mai închisă la hover */
-    color: black;
-    border-radius: 3px;
-    padding: 3px;
-}
-.services {
-    text-decoration: none;
-    color: black;
-    margin-left: 30%;
 }
 
-.services:hover {
-    background-color: #45a049; /* Culoare verde mai închisă la hover */
+.nav-link:hover {
+    /* background-color: #45a049; */
     color: black;
     border-radius: 3px;
     padding: 3px;
 }
 
+.home,
+.about,
+.services,
 .reservation1 {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-    margin-left: 30%;
-    padding: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
-.reservation1:hover {
-    background-color: #45a049; /* Culoare verde mai închisă la hover */
-    color: black;
-    border-radius: 3px;
-    padding: 3px;
-}
 
 @media (width < 1080px) {
-    .Navbar{
+    .Navbar {
         grid-template-columns: auto;
     }
-    .nav{
+
+    .nav {
         width: 100%;
     }
-    }
+}
+

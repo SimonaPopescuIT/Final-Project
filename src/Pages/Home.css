@@ -22,17 +22,11 @@
 
 .button {
     background-color: black;
-    color: white;
+    /* color: white; */
     border-radius: 3px;
     padding: 10px;
     margin-left: 2%;
 
-}
-
-.button:hover {
-    background-color: #45a049;
-    /* Culoare verde mai închisă la hover */
-    color: black;
 }
 
 .h3 {
@@ -45,9 +39,10 @@
     border-radius: 5px;
 }
 
-.logo2 {
-    padding-left: 50px;
-    padding-right: 350px;
+.button:hover {
+    border-radius: 3px;
+    padding: 12px;
+
 }
 
 .table1,
@@ -81,11 +76,6 @@
     color: black;
 }
 
-.program1 {
-    padding-left: 500px;
-    /* padding-right: 150px; */
-}
-
 .container5 {
     padding: 30px;
     padding-right: 50px;
@@ -97,7 +87,7 @@
 
 @media screen and (min-width: 300px) {
     .table1 {
-        background-color: rgba(143, 35, 35, 0.142);
+        background-color: #F9F7F7;
         width: 100%;
     }
 }
