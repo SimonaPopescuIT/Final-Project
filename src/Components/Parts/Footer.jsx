@@ -7,8 +7,6 @@ import { MdOutlineSpa } from 'react-icons/md';
 const Footer = () => {
     return (
         <>
-                    {/* <hr/> */}
-
             <table className='table1'>
                 <thead className='thead'>
                     <tr className='tr'>

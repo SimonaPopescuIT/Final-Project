@@ -13,8 +13,6 @@ const DetaliiMiere = () => {
 
       <h1 className='title'>Masaj cu miere</h1>
 
-
-
       <table class="table">
   <thead>
     <tr>
